@@ -49,6 +49,6 @@ int main()
     int n;
     cin >> n;
     int tempSol = sqrtInteger(n);
-    cout << morePrecision(n, 1, tempSol);
+    cout << morePrecision(n, 1, tempSol); /// adding more precision
     return 0;
 }
